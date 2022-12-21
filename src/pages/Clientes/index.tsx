@@ -1,10 +1,12 @@
 import styles from './Clientes.module.scss';
 import logo from 'assets/logoModasCellya.png';
-import Buscador from './buscador';
+import Buscador from './Buscador';
 import { useState } from 'react';
+import Filtros from './Filtros';
 
 export default function Clientes() {
     const [busca, setBusca] = useState("");
+    const [filtro, setFiltro] = useState<number | null>(null);
     return (
         <main>
             <nav className={styles.menu}>
@@ -23,6 +25,9 @@ export default function Clientes() {
                     busca = {busca}
                     setBusca = {setBusca}
                 />
+                <div className={styles.clientes__filtros}>
+                    <Filtros filtro={filtro} setFiltro={setFiltro} />
+                </div>
             </section>
         </main>
     )

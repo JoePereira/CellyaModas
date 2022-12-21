@@ -1,0 +1,14 @@
+[
+    {
+        "label": "Nome",
+        "id": 1
+    },
+    {
+        "label": "CPF",
+        "id": 2
+    },
+    {
+        "label": "RG",
+        "id": 3
+    }
+]
