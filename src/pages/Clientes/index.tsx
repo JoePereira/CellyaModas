@@ -3,10 +3,13 @@ import logo from 'assets/logoModasCellya.png';
 import Buscador from './Buscador';
 import { useState } from 'react';
 import Filtros from './Filtros';
+import Ordenador from './Ordenador';
 
 export default function Clientes() {
     const [busca, setBusca] = useState("");
     const [filtro, setFiltro] = useState<number | null>(null);
+    const [ordenador, setOrdenador] = useState("");
+
     return (
         <main>
             <nav className={styles.menu}>
@@ -27,6 +30,7 @@ export default function Clientes() {
                 />
                 <div className={styles.clientes__filtros}>
                     <Filtros filtro={filtro} setFiltro={setFiltro} />
+                    <Ordenador  ordenador={ordenador} setOrdenador={setOrdenador}/>
                 </div>
             </section>
         </main>
