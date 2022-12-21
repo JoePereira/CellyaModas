@@ -1,3 +1,22 @@
+@import 'styles/variaveis';
+
 .menu {
-    padding: 20px 250px;
+    padding: 20px $padding-horizontal;
+}
+
+.header {
+    align-items: center;
+    background-image: url('/assets/index/banner-moda.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 300px;
+    padding: 0 50px;
+    // justify-content: center;
+    &__text {
+        color: #9c988c;
+        font-size: 5rem;
+        min-width: 400px;
+        width: 40%;
+    }
 }

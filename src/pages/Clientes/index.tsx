@@ -7,6 +7,11 @@ export default function Clientes() {
             <nav className={styles.menu}>
                 <img src={logo} alt="logo cellya modas" />
             </nav>
+            <header className={styles.header}>
+                <div className={styles.header__text}>
+                    Lista de Clientes
+                </div>
+            </header>
         </main>
     )
 }
