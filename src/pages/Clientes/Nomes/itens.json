@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "nome": "Elisa Ferreira",
+        "endereco": "Rua blabla, 17, barreto",
+        "idade": 37,
+        "rg": "35.826.679-8",
+        "cpf": "621.435.500-06",
+        "status":
+        {
+            "label": "malPagador",
+            "id": 2
+        } 
+    },
+    {
+        "id": 1,
+        "nome": "Augusta Ferreira",
+        "endereco": "Rua blabla, 17, barreto",
+        "idade": 37,
+        "rg": "35.826.679-8",
+        "cpf": "621.435.500-06",
+        "status":
+        {
+            "label": "malPagador",
+            "id": 2
+        } 
+    },
+    {
+        "id": 2,
+        "nome": "Roberta Ferreira",
+        "endereco": "Rua abacateiro, 19, mirante",
+        "idade": 47,
+        "rg": "31.457.432-3",
+        "cpf": "678.275.380-45",
+        "status":
+        {
+            "label": "novoCliente",
+            "id": 1
+        } 
+    },
+    {
+        "id": 2,
+        "nome": "Beatriz Ferreira",
+        "endereco": "Rua abacateiro, 19, mirante",
+        "idade": 47,
+        "rg": "31.457.432-3",
+        "cpf": "678.275.380-45",
+        "status":
+        {
+            "label": "novoCliente",
+            "id": 1
+        } 
+    },
+    {
+        "id": 3,
+        "nome": "Cecilia Ferreira",
+        "endereco": "Rua teixerira, 78, barreto",
+        "idade": 53,
+        "rg": "42.642.159-0",
+        "cpf": "967.522.720-69",
+                "status":
+        {
+            "label": "bomPagador",
+            "id": 3
+        } 
+    },
+    {
+        "id": 4,
+        "nome": "Joana Ferreira",
+        "endereco": "Rua macedonia, 222, barreto",
+        "idade": 27,
+        "rg": "30.384.640-9",
+        "cpf": "905.886.990-39",
+        "status":
+        {
+            "label": "bomPagador",
+            "id": 3
+        }      
+    },
+    {
+        "id": 4,
+        "nome": "Danila Ferreira",
+        "endereco": "Rua macedonia, 222, barreto",
+        "idade": 27,
+        "rg": "30.384.640-9",
+        "cpf": "905.886.990-39",
+        "status":
+        {
+            "label": "bomPagador",
+            "id": 3
+        }      
+    },
+    {
+        "id": 5,
+        "nome": "Elaine Ferreira",
+        "endereco": "Rua jutingape, 17, barreto",
+        "idade": 37,
+        "rg": "36.038.552-7",
+        "cpf": "110.377.400-09",
+        "status":
+        {
+            "label": "malPagador",
+            "id": 2
+        } 
+    },
+    {
+        "id": 6,
+        "nome": "Zenaide Ferreira",
+        "endereco": "Rua aguinolia, 17, barreto",
+        "idade": 46,
+        "rg": "38.476.876-3",
+        "cpf": "246.338.520-00",
+        "status":
+        {
+            "label": "novoCliente",
+            "id": 1
+        } 
+    },
+    {
+        "id": 6,
+        "nome": "Felipa Ferreira",
+        "endereco": "Rua aguinolia, 17, barreto",
+        "idade": 46,
+        "rg": "38.476.876-3",
+        "cpf": "246.338.520-00",
+        "status":
+        {
+            "label": "novoCliente",
+            "id": 1
+        } 
+    }
+]

@@ -1,14 +1,14 @@
 [
     {
-        "label": "Nome",
+        "label": "Novo Cliente",
         "id": 1
     },
     {
-        "label": "CPF",
+        "label": "Mal Pagador",
         "id": 2
     },
     {
-        "label": "RG",
+        "label": "Bom Pagador",
         "id": 3
     }
 ]

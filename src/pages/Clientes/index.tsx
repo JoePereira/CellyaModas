@@ -4,6 +4,7 @@ import Buscador from './Buscador';
 import { useState } from 'react';
 import Filtros from './Filtros';
 import Ordenador from './Ordenador';
+import NomesClientes from './Nomes';
 
 export default function Clientes() {
     const [busca, setBusca] = useState("");
@@ -32,6 +33,7 @@ export default function Clientes() {
                     <Filtros filtro={filtro} setFiltro={setFiltro} />
                     <Ordenador  ordenador={ordenador} setOrdenador={setOrdenador}/>
                 </div>
+                <NomesClientes busca={busca} filtro={filtro} ordenador={ordenador}/>
             </section>
         </main>
     )
